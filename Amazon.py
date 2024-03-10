@@ -57,8 +57,9 @@ Select_continue_button = driver.find_element("id","continue")
 Select_continue_button.click()
 time.sleep(3)
 
-Email_input_field = driver.find_element("id","cvf-input-code")
-Email_input_field.send_keys("ThankU")
+# Find and Input otp
+EnterOtp_field = driver.find_element("id","cvf-input-code")
+EnterOtp_field.send_keys("ThankU")
 time.sleep(3)
 
 # Close the browser
